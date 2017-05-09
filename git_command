@@ -28,8 +28,8 @@ git push -u origin master
 git add -A
 git commit -m "commits"
 (git pull origin master) 	
-# git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。
+# git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。如果远程的分支没有被修改，也就是与本地的一样，那么不需要这个步骤。但是当远程origin/master与本地的master不一致时，需要执行这个步骤。
 git push origin master
-# git push命令用于将本地分支的更新，推送到远程主机。
+# git push命令用于将本地分支的更新，推送到远程主机。上面命令表示，将本地的master分支推送到origin主机的master分支。
 
 
