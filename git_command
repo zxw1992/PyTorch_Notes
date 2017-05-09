@@ -1,0 +1,35 @@
+1. 创建一个git repository并首次上传文件的步骤：
+# 首先在github主页上创建一个新的repository，比如命名为PyTorch_Notes，注意创建的时候不要添加任何的文件，比如readme。
+
+# 然后Terminal：
+
+cd github/PyTorch
+
+git config --global user.name "zxw1992"
+git config --global user.email "zxw1992spark@gmail.com"
+
+git init
+(git status)
+
+git add -A  		# add all files in current fold
+or git add <file>	# add specific file
+
+git commit -m "some commits"
+
+git remote add origin https://github.com/zxw1992/PyTorch_Notes.git
+
+git push -u origin master
+
+2. 上传修改的文件或增加文件:
+
+(git status 
+ git diff)
+
+git add -A
+git commit -m "commits"
+(git pull origin master) 	
+# git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。
+git push origin master
+# git push命令用于将本地分支的更新，推送到远程主机。
+
+
