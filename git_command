@@ -33,3 +33,8 @@ git push origin master
 # git push命令用于将本地分支的更新，推送到远程主机。上面命令表示，将本地的master分支推送到origin主机的master分支。
 
 
+3. 一些命令行
+
+git commit -h
+# 显示帮助，注意如果使用git commit --help 就会显示英文文档。
+
